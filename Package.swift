@@ -14,7 +14,7 @@ let package = Package(
         .binaryTarget(
             name: "BarcodeScan",
             url: "https://github.com/daiki0924/barcode_scan_sdk_ios/releases/download/v0.1.0/BarcodeScan.xcframework.zip",
-            checksum: "4e723d1141519cdef717103b4aa92aee571f565f0c66f562259ceb0dace2d715"
+            checksum: "1e453a9d5f23dcd0676b476796e4cf1ada5ede93225cff3b497edccb15339176"
         )
     ]
 )
