@@ -4,17 +4,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "BarcodeScanSdkIos",
+    name: "BarcodeScan",
     products: [
         .library(
-            name: "BarcodeScanSdk",
-            targets: ["BarcodeScanSdk"]),
+            name: "BarcodeScan",
+            targets: ["BarcodeScan"]),
     ],
     targets: [
         .binaryTarget(
-            name: "BarcodeScanSdk",
+            name: "BarcodeScan",
             url: "https://github.com/daiki0924/barcode_scan_sdk_ios/releases/download/v0.1.0/BarcodeScan.xcframework.zip",
-            checksum: "7a2bcd0ac0dc42ff2051a97c467ca6b12c3b9d8cbd4370cab48cd6c023b9f6b0"
+            checksum: "4e723d1141519cdef717103b4aa92aee571f565f0c66f562259ceb0dace2d715"
         )
     ]
 )
